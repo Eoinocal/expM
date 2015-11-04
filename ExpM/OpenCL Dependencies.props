@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Craftwork\Cpp\Dependencies\Cuda\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Craftwork\Cpp\Dependencies\Cuda\libs-windows-$(PlatformShortName);$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>OpenCL Dependencies</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenCL.lib </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
