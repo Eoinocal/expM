@@ -2,7 +2,7 @@
 
 ### Dubious Ways to Implement the Exponential of a Matrix
 
-This repository is (will be) a small C++ library for computing the exponential of a matrix. It is inspired by the paper [Nineteen Dubious Ways to Compute the Exponential of a Matrix, Twenty-Five Years Later]() by Cleve Moler and Charles Van Loan. Note that I have no affiliation with either author. The abstract of their paper neatly sums up why there are so many *dubious* approaches to compute the exponential:
+This repository is (will be) a small C++ library for computing the exponential of a matrix. It is inspired by the paper ["Nineteen Dubious Ways to Compute the Exponential of a Matrix, Twenty-Five Years Later"](<http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.129.9283>) by Cleve Moler and Charles Van Loan. Note that I have no affiliation with either author. The abstract of their paper neatly sums up why there are so many *dubious* approaches to compute the exponential:
 
 >In principle, the exponential of a matrix could be computed in many ways. Methods involving
 approximation theory, differential equations, the matrix eigenvalues, and the matrix
